@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awosome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="css/global.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css"/>
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css"/>
+    
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div id="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Umut Can YILMAZ</h1>
+    
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#training">Egitimler</a></li>
+                    <li><a href="#courses">Kurslar</a></li>
+                    <li><a href="">Iletisim </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <img src="images/download.jpg" alt="Marcus AURELIUS">
+        <div class="name text-center">
+            <h2 class="heading-big">Markus AURELIUS</h2>
+            <p>Imparator | Stoa Filozofu</p>
+        </div>
+
+        <a href="#courses" class="btn btn-primary">Kurslara Git</a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Egitimler</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                 <h3>Sinif Ici Egitimler</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, tempore.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                 <h3>Konferanslar</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, tempore.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                 <h3>Online Icerikler</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, tempore.</p>
+            </article>
+        </div>
+    </section>
+    <section id="courses">
+        <h3 class="text-center heading-medium">Kurslar</h3>
+        <div class="container">
+            <div class="courses">
+                <!-- 1 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/a.jpg" alt="Kendime Dusunceler" height="200px">
+                        <span>%90 Indirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Kendime Dusunceler</div>
+                        <div class="description">Bu notlar, her ne kadar çok büyük sorumlulukları olan bir kişinin kendi kendine verdiği öğütler gibi görünse de aslında evrensel bir ders niteliği taşıyor.On iki kitap olarak Yunanca kaleme alınmış olan ve birçok kuşak tarafından antikçağın en önemli eserlerinden biri olarak görülen Kendime Düşünceler, günümüz de günlük hayatın zorluklarına dair pratik ve ilham verici bir rehber görevi üstleniyor.</div>
+                        <div class="instructor">Marcus AURELIUS</div>                      
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/b.jpg" alt="Kendime Dusunceler" height="200px">
+                        <span>%90 Indirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Unutma,Mutlu Bir Hayat Cok Az Seye Baglidir</div>
+                        <div class="description">Mutlu bir hayatın çok az şeye bağlı olduğunu ve ölümlü bir dünyada insana yaraşır şekilde yaşamaktan daha yüksek bir amaç olamayacağını hatırlatan Aurelius’un gösterişten uzak, yalın, basit ama mutlu bir yaşam üzerine inşa ettiği güçlü felsefesi, insanlığın binlerce yıldır süregelen mutluluk arayışına ışık tutmaya devam ediyor.</div>
+                        <div class="instructor">Marcus AURELIUS</div>                 
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/c.jpg" alt="Kendime Dusunceler" height="200px">
+                        <span>%90 Indirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Yildizlarin Ortusu Yoktur</div>
+                        <div class="description">"Hemen hemen hiçbir şey insana yabancı değildir."
+                            Yıldızların Örtüsü Yoktur, Marcus Aurelius’un Şadan Karadeniz tarafından Türkçeye çevrilen Düşünceler eserinden Filiz Özdem’in yayına hazırladığı bir “seçmeler” kitabı.</div>
+                        <div class="instructor">Marcus AURELIUS</div>                
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Bana Ulasin</h4>
+                <div class="form-group">
+                    <label for="name">Isim</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Isim">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <label for="name">Mesaj</label>
+                    <textarea name="mesaage" id="mesaage" class="form-control" rows="5" placeholder="Mesajiniz..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Gonder</button>
+            </form>
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+
+            </ul>
+        </div>
+
+    </footer>
+
+   
+</body>
+</html>
